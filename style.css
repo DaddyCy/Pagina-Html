@@ -1,0 +1,227 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+body{font-family: Arial, Helvetica, sans-serif; }
+#maincolor{background-color: rgb(250, 245, 245);}
+/*  inizio header */
+#header{display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+        border-bottom: 1px solid rgb(214, 209, 209);
+        background-color:white;
+       }
+.logo{padding-left: 90px;}
+.iconhead{display: flex;
+          justify-content: space-between;
+          align-items: baseline;}
+.searchlog{padding-right: 100px;}
+.icons{padding-right: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;}
+.icons div{padding: 10px;}
+.searchlog button{border-radius:15px;
+                  font-size: 18px;
+                  font-weight: 100;
+                  width: 27px;
+                  color: white;
+                  background-color: red;
+                  border-color: red;}
+.instext{border-radius: 15px;
+         font-size: 15px;
+         text-align: center;
+         padding: 2px;}
+/* fine header */
+
+/* inizio main */
+#main{display: flex;}
+/* inizio main1 */
+#main1{padding-left: 90px;
+       padding-top: 60px;
+       padding-right: 20px;
+       border-right: 1px solid rgb(216, 215, 215) ;
+       width: 85%;}
+/* inizio titles */
+.titles{display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        border-bottom: 1px solid rgb(216, 215, 215) ;}
+.titles span{padding-right: 15px;}
+.title1{color: grey;}
+.title2{color: black;
+        font-weight: bold;
+        border-bottom: 2px solid rgb(182, 179, 179);}
+/* fine titles */
+/* inzio sezione 1-6 */
+.sezione{display: flex;
+         flex-direction: row;
+         padding-top:30px;}
+.titlesezione{display:flex ;
+               flex-direction: row;
+               justify-content: flex-start;
+              font-size: 15px;}
+.icona{padding-right:10px;
+padding-bottom: 5px;}
+.icona img{height: 16px;
+width: 16px;}
+.bold{font-weight: bold;}
+.titleparagrafo{
+width: 80%;}
+.blocco{display: flex;
+justify-content: space-between;
+flex-direction: row;
+margin-top: 7px;}
+.sezionetesto{display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              width: 70%;}
+
+.sezioneimmagine{margin-left: 5px;}
+.sezioneimmagine img{width: 200px;
+                     height: 120px;}
+.icone span{padding-right:10px;}
+.sottotesto{display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+             font-size: 10px;
+             color: rgb(155, 154, 154);
+             font-family: 'Gill Sans'; }
+.sottotesto span{margin-right: 3px;}
+.sfondo{background-color:rgb(231, 231, 231);
+        border-radius: 15px;
+        height: 20px;
+        width: 20px;
+        padding:3px;}
+.paragrafo{color: rgb(155, 154, 154);
+font-size:14px;
+
+margin-top: 3px;}
+/* fine sezione 1-6 */
+/* fine main1 */
+/* inizio main2 */
+#main2{padding-top: 35px;
+       padding-left: 90px;
+       padding-right: 80px;}
+/* inizio parte1 */
+.parte1{display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid rgb(214, 209, 209);}
+.paragrafo2{padding-top: 20px;
+            width: 280px;
+            text-align: center;}
+.button{ padding-top:12px;
+         width: 200px;
+         height: 40px;
+         text-align: center;
+         border:1px solid rgb(167, 164, 164);
+         border-radius: 20px;
+         margin: 10px 0;
+         font-size: 14px;}
+.twitter span{padding-right: 5px;}
+.sottolineato{text-decoration: underline;
+              color: rgb(168, 167, 167);
+              padding-bottom: 20px;}
+/* fine parte1 */
+/* inizio parte2 */
+.parte2{padding-top: 25px;}
+.parole{display: flex;
+        flex-direction: row;}
+.sottoparole {background-color:rgb(243, 239, 239);
+              border: 1px solid rgb(243, 239, 239);
+              border-radius: 10px;
+              margin-right: 30px;
+              margin-top: 10px;
+              font-size: 14px;
+              padding: 5px;}
+/* fine parte2 */
+/*inzio persone  */
+.persone{margin-top:50px ;}
+.persona{display: flex;
+         flex-direction: row;
+         margin-top: 15px;}
+.imgp{padding-right: 15px;}
+.imgp img{ width: 50px;
+           height: 50px;
+          border-radius: 25px;}
+.text{width: 180px;}
+.text h4{margin-bottom: 10px;}
+.text span{font-size: 12px;
+           color: rgb(168, 167, 167);}
+.follow{margin-top:10px;}
+.follow button{padding :5px;
+               border-radius: 15px;}
+/* fine persone */
+/* inizio parte3 */
+.parte3{ margin-top: 40px;
+         margin-right: 140px;}
+.titolop3{display: flex;
+          flex-direction: row;
+          margin-top: 20px;
+          font-size: 13px;}
+.paragrafo3{font-weight: bold;
+            font-size: 15px;}
+.sottotesto3{display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            font-size: 13px;
+            color: rgb(155, 154, 154);
+            font-family: 'Gill Sans';
+            padding-top: 10px;}
+  .sottotesto3 span {padding-left:5px;}
+  .sotto3{ padding-left: 5px;}
+ .titolop3 img{ border-radius: 15px;
+}
+ .see{color:green;
+      margin-top: 50px;
+      font-size: 14px;}
+.fineparte3{margin-top: 80px;
+           font-size: 12px;
+        color: rgb(163, 163, 163);}
+.sotto4{display: flex;
+        padding-top: 15px ;}
+.sotto4 div{padding-right: 17px;}
+.sotto5{display: flex;
+        padding-top: 15px;}
+.sotto5 div{padding-right: 20px;}
+/* fine parte3 */
+/* inizio footer */
+#footer{width: 55vw;
+        display: flex;
+        flex-direction: row;}
+.sezfooter1{display: flex;
+           flex-direction: column;
+           margin-left: 90px;}
+.titolofooter{display: flex;}
+.iconafooter img{ width: 16px;
+                  height: 16px;}
+.titolofooter div{padding-right: 5px;}
+.boldfooter{font-size: 15px;
+            font-weight: 600;}
+.paragrafo4 span{background-color: grey;
+                 color: rgb(236, 234, 234);
+                 font-size: 12px;
+                white-space: nowrap;}
+.sezfooter2{margin-left: 220px;}
+
+.finepagina img{ width: 200px;
+                 height: 25px;}
+/* fine footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
